@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { EventsListComponent } from './page/events-list/events-list.component';
 
 const routes: Routes = [
-
+  { path: 'event-list', component: EventsListComponent },
 ];
 
 @NgModule({
